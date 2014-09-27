@@ -113,6 +113,8 @@
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
+				<string>2945DEB419D6C68500071BFD</string>
+				<string>2945DEB719D6C82F00071BFD</string>
 				<string>29238D3D19D5CFDD00B89D65</string>
 				<string>29238D3819D5CFDD00B89D65</string>
 				<string>29238D3B19D5CFDD00B89D65</string>
@@ -208,12 +210,11 @@
 		<dict>
 			<key>children</key>
 			<array>
+				<string>2945DEC119D6D3DA00071BFD</string>
+				<string>2945DEC019D6D3C500071BFD</string>
+				<string>2945DEB619D6C82F00071BFD</string>
 				<string>29238D3719D5CFDD00B89D65</string>
-				<string>29238D3C19D5CFDD00B89D65</string>
-				<string>29238D3E19D5CFDD00B89D65</string>
-				<string>29238D4119D5CFDD00B89D65</string>
-				<string>29238D4319D5CFDD00B89D65</string>
-				<string>29238D3919D5CFDD00B89D65</string>
+				<string>2945DEBA19D6CAAB00071BFD</string>
 				<string>29238D3519D5CFDD00B89D65</string>
 			</array>
 			<key>isa</key>
@@ -503,6 +504,7 @@
 		<dict>
 			<key>children</key>
 			<array>
+				<string>2945DEBF19D6D3AB00071BFD</string>
 				<string>29238D5019D5CFDD00B89D65</string>
 				<string>29238D4E19D5CFDD00B89D65</string>
 			</array>
@@ -724,12 +726,18 @@
 			<dict>
 				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
 				<string>AppIcon</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
 				<key>INFOPLIST_FILE</key>
 				<string>Semafor/Info.plist</string>
 				<key>LD_RUNPATH_SEARCH_PATHS</key>
 				<string>$(inherited) @executable_path/Frameworks</string>
 				<key>PRODUCT_NAME</key>
 				<string>$(TARGET_NAME)</string>
+				<key>SWIFT_OBJC_BRIDGING_HEADER</key>
+				<string>Semafor/Semafor-Bridging-Header.h</string>
+				<key>SWIFT_OPTIMIZATION_LEVEL</key>
+				<string>-Onone</string>
 			</dict>
 			<key>isa</key>
 			<string>XCBuildConfiguration</string>
@@ -744,12 +752,16 @@
 			<dict>
 				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
 				<string>AppIcon</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
 				<key>INFOPLIST_FILE</key>
 				<string>Semafor/Info.plist</string>
 				<key>LD_RUNPATH_SEARCH_PATHS</key>
 				<string>$(inherited) @executable_path/Frameworks</string>
 				<key>PRODUCT_NAME</key>
 				<string>$(TARGET_NAME)</string>
+				<key>SWIFT_OBJC_BRIDGING_HEADER</key>
+				<string>Semafor/Semafor-Bridging-Header.h</string>
 			</dict>
 			<key>isa</key>
 			<string>XCBuildConfiguration</string>
@@ -776,6 +788,8 @@
 			<dict>
 				<key>BUNDLE_LOADER</key>
 				<string>$(TEST_HOST)</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
 				<key>FRAMEWORK_SEARCH_PATHS</key>
 				<array>
 					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
@@ -792,6 +806,10 @@
 				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
 				<key>PRODUCT_NAME</key>
 				<string>$(TARGET_NAME)</string>
+				<key>SWIFT_OBJC_BRIDGING_HEADER</key>
+				<string>SemaforTests/SemaforTests-Bridging-Header.h</string>
+				<key>SWIFT_OPTIMIZATION_LEVEL</key>
+				<string>-Onone</string>
 				<key>TEST_HOST</key>
 				<string>$(BUILT_PRODUCTS_DIR)/Semafor.app/Semafor</string>
 			</dict>
@@ -806,6 +824,8 @@
 			<dict>
 				<key>BUNDLE_LOADER</key>
 				<string>$(TEST_HOST)</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
 				<key>FRAMEWORK_SEARCH_PATHS</key>
 				<array>
 					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
@@ -817,6 +837,8 @@
 				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
 				<key>PRODUCT_NAME</key>
 				<string>$(TARGET_NAME)</string>
+				<key>SWIFT_OBJC_BRIDGING_HEADER</key>
+				<string>SemaforTests/SemaforTests-Bridging-Header.h</string>
 				<key>TEST_HOST</key>
 				<string>$(BUILT_PRODUCTS_DIR)/Semafor.app/Semafor</string>
 			</dict>
@@ -824,6 +846,100 @@
 			<string>XCBuildConfiguration</string>
 			<key>name</key>
 			<string>Release</string>
+		</dict>
+		<key>2945DEB319D6C68500071BFD</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>CoreData.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2945DEB419D6C68500071BFD</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2945DEB319D6C68500071BFD</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2945DEB619D6C82F00071BFD</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>ApplicationAssembly.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2945DEB719D6C82F00071BFD</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2945DEB619D6C82F00071BFD</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2945DEBA19D6CAAB00071BFD</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Semafor-Bridging-Header.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2945DEBF19D6D3AB00071BFD</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>SemaforTests-Bridging-Header.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2945DEC019D6D3C500071BFD</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>29238D3C19D5CFDD00B89D65</string>
+				<string>29238D3E19D5CFDD00B89D65</string>
+				<string>29238D4119D5CFDD00B89D65</string>
+				<string>29238D4319D5CFDD00B89D65</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>UI</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2945DEC119D6D3DA00071BFD</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>29238D3919D5CFDD00B89D65</string>
+				<string>2945DEB319D6C68500071BFD</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>CoreData</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>2C6C4C8AE704B98392BEE557</key>
 		<dict>

@@ -4,7 +4,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 target "Semafor" do
 
-pod 'Typhoon', :head
+pod 'Typhoon', :head, :inhibit_warnings => true
 
 end
 

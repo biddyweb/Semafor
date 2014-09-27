@@ -33,6 +33,10 @@
 		<string>gps</string>
 		<string>magnetometer</string>
 	</array>
+	<key>TyphoonInitialAssemblies</key>
+	<array>
+		<string>ApplicationAssembly</string>
+	</array>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
