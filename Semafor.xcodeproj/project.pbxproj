@@ -1,1066 +1,564 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>213DF47B315A2C7C8617E355</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>926098309498EACF8F16E2EF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>29238D2919D5CFDD00B89D65</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>29238D3419D5CFDD00B89D65</string>
-				<string>29238D4D19D5CFDD00B89D65</string>
-				<string>29238D3319D5CFDD00B89D65</string>
-				<string>BFFD39E09DDD711A320AE1B0</string>
-				<string>213DF47B315A2C7C8617E355</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>29238D2A19D5CFDD00B89D65</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0600</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>Marius Serban</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>29238D3119D5CFDD00B89D65</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>6.0.1</string>
-					</dict>
-					<key>29238D4919D5CFDD00B89D65</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>6.0.1</string>
-						<key>TestTargetID</key>
-						<string>29238D3119D5CFDD00B89D65</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>29238D2D19D5CFDD00B89D65</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>29238D2919D5CFDD00B89D65</string>
-			<key>productRefGroup</key>
-			<string>29238D3319D5CFDD00B89D65</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>29238D3119D5CFDD00B89D65</string>
-				<string>29238D4919D5CFDD00B89D65</string>
-			</array>
-		</dict>
-		<key>29238D2D19D5CFDD00B89D65</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>29238D5219D5CFDD00B89D65</string>
-				<string>29238D5319D5CFDD00B89D65</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>29238D2E19D5CFDD00B89D65</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>2945DEB419D6C68500071BFD</string>
-				<string>2945DEB719D6C82F00071BFD</string>
-				<string>29238D3D19D5CFDD00B89D65</string>
-				<string>29238D3819D5CFDD00B89D65</string>
-				<string>29238D3B19D5CFDD00B89D65</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>29238D2F19D5CFDD00B89D65</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>6754E658CC3BC993362A59AA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>29238D3019D5CFDD00B89D65</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>29238D4019D5CFDD00B89D65</string>
-				<string>29238D4519D5CFDD00B89D65</string>
-				<string>29238D4219D5CFDD00B89D65</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>29238D3119D5CFDD00B89D65</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>29238D5419D5CFDD00B89D65</string>
-			<key>buildPhases</key>
-			<array>
-				<string>F690E8782A5369CDCA79A472</string>
-				<string>29238D2E19D5CFDD00B89D65</string>
-				<string>29238D2F19D5CFDD00B89D65</string>
-				<string>29238D3019D5CFDD00B89D65</string>
-				<string>ED5CCF9200E2941234E4C79C</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Semafor</string>
-			<key>productName</key>
-			<string>Semafor</string>
-			<key>productReference</key>
-			<string>29238D3219D5CFDD00B89D65</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>29238D3219D5CFDD00B89D65</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Semafor.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>29238D3319D5CFDD00B89D65</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>29238D3219D5CFDD00B89D65</string>
-				<string>29238D4A19D5CFDD00B89D65</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>29238D3419D5CFDD00B89D65</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2945DEC119D6D3DA00071BFD</string>
-				<string>2945DEC019D6D3C500071BFD</string>
-				<string>2945DEB619D6C82F00071BFD</string>
-				<string>29238D3719D5CFDD00B89D65</string>
-				<string>2945DEBA19D6CAAB00071BFD</string>
-				<string>29238D3519D5CFDD00B89D65</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Semafor</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>29238D3519D5CFDD00B89D65</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>29238D3619D5CFDD00B89D65</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>29238D3619D5CFDD00B89D65</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>29238D3719D5CFDD00B89D65</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>AppDelegate.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>29238D3819D5CFDD00B89D65</key>
-		<dict>
-			<key>fileRef</key>
-			<string>29238D3719D5CFDD00B89D65</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>29238D3919D5CFDD00B89D65</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>29238D3A19D5CFDD00B89D65</string>
-			</array>
-			<key>currentVersion</key>
-			<string>29238D3A19D5CFDD00B89D65</string>
-			<key>isa</key>
-			<string>XCVersionGroup</string>
-			<key>path</key>
-			<string>Semafor.xcdatamodeld</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-			<key>versionGroupType</key>
-			<string>wrapper.xcdatamodel</string>
-		</dict>
-		<key>29238D3A19D5CFDD00B89D65</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.xcdatamodel</string>
-			<key>path</key>
-			<string>Semafor.xcdatamodel</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>29238D3B19D5CFDD00B89D65</key>
-		<dict>
-			<key>fileRef</key>
-			<string>29238D3919D5CFDD00B89D65</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>29238D3C19D5CFDD00B89D65</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>ViewController.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>29238D3D19D5CFDD00B89D65</key>
-		<dict>
-			<key>fileRef</key>
-			<string>29238D3C19D5CFDD00B89D65</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>29238D3E19D5CFDD00B89D65</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>29238D3F19D5CFDD00B89D65</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>29238D3F19D5CFDD00B89D65</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>29238D4019D5CFDD00B89D65</key>
-		<dict>
-			<key>fileRef</key>
-			<string>29238D3E19D5CFDD00B89D65</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>29238D4119D5CFDD00B89D65</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Images.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>29238D4219D5CFDD00B89D65</key>
-		<dict>
-			<key>fileRef</key>
-			<string>29238D4119D5CFDD00B89D65</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>29238D4319D5CFDD00B89D65</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>29238D4419D5CFDD00B89D65</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>LaunchScreen.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>29238D4419D5CFDD00B89D65</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.xib</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/LaunchScreen.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>29238D4519D5CFDD00B89D65</key>
-		<dict>
-			<key>fileRef</key>
-			<string>29238D4319D5CFDD00B89D65</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>29238D4619D5CFDD00B89D65</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>29238D5119D5CFDD00B89D65</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>29238D4719D5CFDD00B89D65</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>29238D4819D5CFDD00B89D65</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>29238D4919D5CFDD00B89D65</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>29238D5719D5CFDD00B89D65</string>
-			<key>buildPhases</key>
-			<array>
-				<string>29238D4619D5CFDD00B89D65</string>
-				<string>29238D4719D5CFDD00B89D65</string>
-				<string>29238D4819D5CFDD00B89D65</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>29238D4C19D5CFDD00B89D65</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>SemaforTests</string>
-			<key>productName</key>
-			<string>SemaforTests</string>
-			<key>productReference</key>
-			<string>29238D4A19D5CFDD00B89D65</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>29238D4A19D5CFDD00B89D65</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>SemaforTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>29238D4B19D5CFDD00B89D65</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>29238D2A19D5CFDD00B89D65</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>29238D3119D5CFDD00B89D65</string>
-			<key>remoteInfo</key>
-			<string>Semafor</string>
-		</dict>
-		<key>29238D4C19D5CFDD00B89D65</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>29238D3119D5CFDD00B89D65</string>
-			<key>targetProxy</key>
-			<string>29238D4B19D5CFDD00B89D65</string>
-		</dict>
-		<key>29238D4D19D5CFDD00B89D65</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2945DEBF19D6D3AB00071BFD</string>
-				<string>29238D5019D5CFDD00B89D65</string>
-				<string>29238D4E19D5CFDD00B89D65</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>SemaforTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>29238D4E19D5CFDD00B89D65</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>29238D4F19D5CFDD00B89D65</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>29238D4F19D5CFDD00B89D65</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>29238D5019D5CFDD00B89D65</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>SemaforTests.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>29238D5119D5CFDD00B89D65</key>
-		<dict>
-			<key>fileRef</key>
-			<string>29238D5019D5CFDD00B89D65</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>29238D5219D5CFDD00B89D65</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>29238D5319D5CFDD00B89D65</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>29238D5419D5CFDD00B89D65</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>29238D5519D5CFDD00B89D65</string>
-				<string>29238D5619D5CFDD00B89D65</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>29238D5519D5CFDD00B89D65</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>2C6C4C8AE704B98392BEE557</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Semafor/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SWIFT_OBJC_BRIDGING_HEADER</key>
-				<string>Semafor/Semafor-Bridging-Header.h</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>29238D5619D5CFDD00B89D65</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>A4C2DDAEF894CDE5B0390037</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Semafor/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SWIFT_OBJC_BRIDGING_HEADER</key>
-				<string>Semafor/Semafor-Bridging-Header.h</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>29238D5719D5CFDD00B89D65</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>29238D5819D5CFDD00B89D65</string>
-				<string>29238D5919D5CFDD00B89D65</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>29238D5819D5CFDD00B89D65</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>SemaforTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SWIFT_OBJC_BRIDGING_HEADER</key>
-				<string>SemaforTests/SemaforTests-Bridging-Header.h</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/Semafor.app/Semafor</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>29238D5919D5CFDD00B89D65</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>SemaforTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SWIFT_OBJC_BRIDGING_HEADER</key>
-				<string>SemaforTests/SemaforTests-Bridging-Header.h</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/Semafor.app/Semafor</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>2945DEB319D6C68500071BFD</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>CoreData.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2945DEB419D6C68500071BFD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2945DEB319D6C68500071BFD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2945DEB619D6C82F00071BFD</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>ApplicationAssembly.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2945DEB719D6C82F00071BFD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2945DEB619D6C82F00071BFD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2945DEBA19D6CAAB00071BFD</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Semafor-Bridging-Header.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2945DEBF19D6D3AB00071BFD</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>SemaforTests-Bridging-Header.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2945DEC019D6D3C500071BFD</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>29238D3C19D5CFDD00B89D65</string>
-				<string>29238D3E19D5CFDD00B89D65</string>
-				<string>29238D4119D5CFDD00B89D65</string>
-				<string>29238D4319D5CFDD00B89D65</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>UI</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2945DEC119D6D3DA00071BFD</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>29238D3919D5CFDD00B89D65</string>
-				<string>2945DEB319D6C68500071BFD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>CoreData</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2C6C4C8AE704B98392BEE557</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-Semafor.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-Semafor/Pods-Semafor.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6754E658CC3BC993362A59AA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>926098309498EACF8F16E2EF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>926098309498EACF8F16E2EF</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-Semafor.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>A4C2DDAEF894CDE5B0390037</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-Semafor.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-Semafor/Pods-Semafor.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BFFD39E09DDD711A320AE1B0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2C6C4C8AE704B98392BEE557</string>
-				<string>A4C2DDAEF894CDE5B0390037</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>ED5CCF9200E2941234E4C79C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-Semafor/Pods-Semafor-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>F690E8782A5369CDCA79A472</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>29238D2A19D5CFDD00B89D65</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29238D3819D5CFDD00B89D65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29238D3719D5CFDD00B89D65 /* AppDelegate.swift */; };
+		29238D3B19D5CFDD00B89D65 /* Semafor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 29238D3919D5CFDD00B89D65 /* Semafor.xcdatamodeld */; };
+		29238D3D19D5CFDD00B89D65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29238D3C19D5CFDD00B89D65 /* ViewController.swift */; };
+		29238D4019D5CFDD00B89D65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29238D3E19D5CFDD00B89D65 /* Main.storyboard */; };
+		29238D4219D5CFDD00B89D65 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29238D4119D5CFDD00B89D65 /* Images.xcassets */; };
+		29238D4519D5CFDD00B89D65 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29238D4319D5CFDD00B89D65 /* LaunchScreen.xib */; };
+		29238D5119D5CFDD00B89D65 /* SemaforTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29238D5019D5CFDD00B89D65 /* SemaforTests.swift */; };
+		2945DEB419D6C68500071BFD /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2945DEB319D6C68500071BFD /* CoreData.swift */; };
+		2945DEB719D6C82F00071BFD /* ApplicationAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2945DEB619D6C82F00071BFD /* ApplicationAssembly.swift */; };
+		298C7CD019EC3F4700D38164 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 298C7CCF19EC3F4700D38164 /* Alamofire.framework */; };
+		6754E658CC3BC993362A59AA /* libPods-Semafor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 926098309498EACF8F16E2EF /* libPods-Semafor.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29238D4B19D5CFDD00B89D65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29238D2A19D5CFDD00B89D65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29238D3119D5CFDD00B89D65;
+			remoteInfo = Semafor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		29159E5319EC368900A0DA8E /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		29159E4D19EADB7200A0DA8E /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Dependencies/Alamofire/build/Debug-iphoneos/Alamofire.framework"; sourceTree = "<group>"; };
+		29159E5119EC367F00A0DA8E /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Dependencies/Alamofire/build/Debug-iphoneos/Alamofire.framework"; sourceTree = "<group>"; };
+		29159E5619EC39AA00A0DA8E /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Dependencies/Alamofire/build/Debug-iphoneos/Alamofire.framework"; sourceTree = "<group>"; };
+		29238D3219D5CFDD00B89D65 /* Semafor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Semafor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29238D3619D5CFDD00B89D65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29238D3719D5CFDD00B89D65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		29238D3A19D5CFDD00B89D65 /* Semafor.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Semafor.xcdatamodel; sourceTree = "<group>"; };
+		29238D3C19D5CFDD00B89D65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		29238D3F19D5CFDD00B89D65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29238D4119D5CFDD00B89D65 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		29238D4419D5CFDD00B89D65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		29238D4A19D5CFDD00B89D65 /* SemaforTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SemaforTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29238D4F19D5CFDD00B89D65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29238D5019D5CFDD00B89D65 /* SemaforTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemaforTests.swift; sourceTree = "<group>"; };
+		2945DEB319D6C68500071BFD /* CoreData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreData.swift; sourceTree = "<group>"; };
+		2945DEB619D6C82F00071BFD /* ApplicationAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationAssembly.swift; sourceTree = "<group>"; };
+		2945DEBA19D6CAAB00071BFD /* Semafor-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Semafor-Bridging-Header.h"; sourceTree = "<group>"; };
+		2945DEBF19D6D3AB00071BFD /* SemaforTests-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SemaforTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		298C7CCF19EC3F4700D38164 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Dependencies/Alamofire/build/Debug-iphoneos/Alamofire.framework"; sourceTree = "<group>"; };
+		2C6C4C8AE704B98392BEE557 /* Pods-Semafor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Semafor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Semafor/Pods-Semafor.debug.xcconfig"; sourceTree = "<group>"; };
+		926098309498EACF8F16E2EF /* libPods-Semafor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Semafor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4C2DDAEF894CDE5B0390037 /* Pods-Semafor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Semafor.release.xcconfig"; path = "Pods/Target Support Files/Pods-Semafor/Pods-Semafor.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29238D2F19D5CFDD00B89D65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				298C7CD019EC3F4700D38164 /* Alamofire.framework in Frameworks */,
+				6754E658CC3BC993362A59AA /* libPods-Semafor.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29238D4719D5CFDD00B89D65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		213DF47B315A2C7C8617E355 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				298C7CCF19EC3F4700D38164 /* Alamofire.framework */,
+				29159E5619EC39AA00A0DA8E /* Alamofire.framework */,
+				29159E5119EC367F00A0DA8E /* Alamofire.framework */,
+				29159E4D19EADB7200A0DA8E /* Alamofire.framework */,
+				926098309498EACF8F16E2EF /* libPods-Semafor.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		29238D2919D5CFDD00B89D65 = {
+			isa = PBXGroup;
+			children = (
+				29238D3419D5CFDD00B89D65 /* Semafor */,
+				29238D4D19D5CFDD00B89D65 /* SemaforTests */,
+				29238D3319D5CFDD00B89D65 /* Products */,
+				BFFD39E09DDD711A320AE1B0 /* Pods */,
+				213DF47B315A2C7C8617E355 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		29238D3319D5CFDD00B89D65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29238D3219D5CFDD00B89D65 /* Semafor.app */,
+				29238D4A19D5CFDD00B89D65 /* SemaforTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29238D3419D5CFDD00B89D65 /* Semafor */ = {
+			isa = PBXGroup;
+			children = (
+				2945DEC119D6D3DA00071BFD /* CoreData */,
+				2945DEC019D6D3C500071BFD /* UI */,
+				2945DEB619D6C82F00071BFD /* ApplicationAssembly.swift */,
+				29238D3719D5CFDD00B89D65 /* AppDelegate.swift */,
+				2945DEBA19D6CAAB00071BFD /* Semafor-Bridging-Header.h */,
+				29238D3519D5CFDD00B89D65 /* Supporting Files */,
+			);
+			path = Semafor;
+			sourceTree = "<group>";
+		};
+		29238D3519D5CFDD00B89D65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				29238D3619D5CFDD00B89D65 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		29238D4D19D5CFDD00B89D65 /* SemaforTests */ = {
+			isa = PBXGroup;
+			children = (
+				2945DEBF19D6D3AB00071BFD /* SemaforTests-Bridging-Header.h */,
+				29238D5019D5CFDD00B89D65 /* SemaforTests.swift */,
+				29238D4E19D5CFDD00B89D65 /* Supporting Files */,
+			);
+			path = SemaforTests;
+			sourceTree = "<group>";
+		};
+		29238D4E19D5CFDD00B89D65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				29238D4F19D5CFDD00B89D65 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2945DEC019D6D3C500071BFD /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				29238D3C19D5CFDD00B89D65 /* ViewController.swift */,
+				29238D3E19D5CFDD00B89D65 /* Main.storyboard */,
+				29238D4119D5CFDD00B89D65 /* Images.xcassets */,
+				29238D4319D5CFDD00B89D65 /* LaunchScreen.xib */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		2945DEC119D6D3DA00071BFD /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				29238D3919D5CFDD00B89D65 /* Semafor.xcdatamodeld */,
+				2945DEB319D6C68500071BFD /* CoreData.swift */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		BFFD39E09DDD711A320AE1B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C6C4C8AE704B98392BEE557 /* Pods-Semafor.debug.xcconfig */,
+				A4C2DDAEF894CDE5B0390037 /* Pods-Semafor.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29238D3119D5CFDD00B89D65 /* Semafor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29238D5419D5CFDD00B89D65 /* Build configuration list for PBXNativeTarget "Semafor" */;
+			buildPhases = (
+				F690E8782A5369CDCA79A472 /* Check Pods Manifest.lock */,
+				29238D2E19D5CFDD00B89D65 /* Sources */,
+				29238D2F19D5CFDD00B89D65 /* Frameworks */,
+				29238D3019D5CFDD00B89D65 /* Resources */,
+				ED5CCF9200E2941234E4C79C /* Copy Pods Resources */,
+				29159E5319EC368900A0DA8E /* Copy Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Semafor;
+			productName = Semafor;
+			productReference = 29238D3219D5CFDD00B89D65 /* Semafor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		29238D4919D5CFDD00B89D65 /* SemaforTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29238D5719D5CFDD00B89D65 /* Build configuration list for PBXNativeTarget "SemaforTests" */;
+			buildPhases = (
+				29238D4619D5CFDD00B89D65 /* Sources */,
+				29238D4719D5CFDD00B89D65 /* Frameworks */,
+				29238D4819D5CFDD00B89D65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29238D4C19D5CFDD00B89D65 /* PBXTargetDependency */,
+			);
+			name = SemaforTests;
+			productName = SemaforTests;
+			productReference = 29238D4A19D5CFDD00B89D65 /* SemaforTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29238D2A19D5CFDD00B89D65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Marius Serban";
+				TargetAttributes = {
+					29238D3119D5CFDD00B89D65 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					29238D4919D5CFDD00B89D65 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 29238D3119D5CFDD00B89D65;
+					};
+				};
+			};
+			buildConfigurationList = 29238D2D19D5CFDD00B89D65 /* Build configuration list for PBXProject "Semafor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29238D2919D5CFDD00B89D65;
+			productRefGroup = 29238D3319D5CFDD00B89D65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29238D3119D5CFDD00B89D65 /* Semafor */,
+				29238D4919D5CFDD00B89D65 /* SemaforTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29238D3019D5CFDD00B89D65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29238D4019D5CFDD00B89D65 /* Main.storyboard in Resources */,
+				29238D4519D5CFDD00B89D65 /* LaunchScreen.xib in Resources */,
+				29238D4219D5CFDD00B89D65 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29238D4819D5CFDD00B89D65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ED5CCF9200E2941234E4C79C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Semafor/Pods-Semafor-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F690E8782A5369CDCA79A472 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29238D2E19D5CFDD00B89D65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2945DEB419D6C68500071BFD /* CoreData.swift in Sources */,
+				2945DEB719D6C82F00071BFD /* ApplicationAssembly.swift in Sources */,
+				29238D3D19D5CFDD00B89D65 /* ViewController.swift in Sources */,
+				29238D3819D5CFDD00B89D65 /* AppDelegate.swift in Sources */,
+				29238D3B19D5CFDD00B89D65 /* Semafor.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29238D4619D5CFDD00B89D65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29238D5119D5CFDD00B89D65 /* SemaforTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29238D4C19D5CFDD00B89D65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29238D3119D5CFDD00B89D65 /* Semafor */;
+			targetProxy = 29238D4B19D5CFDD00B89D65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		29238D3E19D5CFDD00B89D65 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29238D3F19D5CFDD00B89D65 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		29238D4319D5CFDD00B89D65 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29238D4419D5CFDD00B89D65 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29238D5219D5CFDD00B89D65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		29238D5319D5CFDD00B89D65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29238D5519D5CFDD00B89D65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C6C4C8AE704B98392BEE557 /* Pods-Semafor.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Semafor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Semafor/Semafor-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		29238D5619D5CFDD00B89D65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4C2DDAEF894CDE5B0390037 /* Pods-Semafor.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Semafor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Semafor/Semafor-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		29238D5819D5CFDD00B89D65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SemaforTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SemaforTests/SemaforTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Semafor.app/Semafor";
+			};
+			name = Debug;
+		};
+		29238D5919D5CFDD00B89D65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SemaforTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SemaforTests/SemaforTests-Bridging-Header.h";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Semafor.app/Semafor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29238D2D19D5CFDD00B89D65 /* Build configuration list for PBXProject "Semafor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29238D5219D5CFDD00B89D65 /* Debug */,
+				29238D5319D5CFDD00B89D65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29238D5419D5CFDD00B89D65 /* Build configuration list for PBXNativeTarget "Semafor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29238D5519D5CFDD00B89D65 /* Debug */,
+				29238D5619D5CFDD00B89D65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29238D5719D5CFDD00B89D65 /* Build configuration list for PBXNativeTarget "SemaforTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29238D5819D5CFDD00B89D65 /* Debug */,
+				29238D5919D5CFDD00B89D65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		29238D3919D5CFDD00B89D65 /* Semafor.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				29238D3A19D5CFDD00B89D65 /* Semafor.xcdatamodel */,
+			);
+			currentVersion = 29238D3A19D5CFDD00B89D65 /* Semafor.xcdatamodel */;
+			path = Semafor.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 29238D2A19D5CFDD00B89D65 /* Project object */;
+}
