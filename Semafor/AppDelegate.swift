@@ -12,7 +12,7 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-    var assembly : ApplicationAssembly?
+    lazy var persistence: Persistence? = CoreData.sharedInstance
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
@@ -41,14 +41,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
         // Saves changes in the application's managed object context before the application terminates.
 
-        saveCoreDataContext();
+        persistence?.savePendingChanges();
     }
 
-    private func saveCoreDataContext() {
-        if let assemblyValid = assembly {
-            let coreData = assemblyValid.coreData() as CoreData
-            coreData.saveContext();
-        }
-    }
 }
 

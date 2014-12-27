@@ -8,7 +8,14 @@
 
 import CoreData
 
-class CoreData: NSObject {
+class CoreData: Persistence {
+    
+    class var sharedInstance : CoreData {
+        struct Static {
+            static let instance : CoreData = CoreData()
+        }
+        return Static.instance
+    }
     
     lazy var applicationDocumentsDirectory: NSURL = {
         // The directory the application uses to store the Core Data store file. This code uses a directory named "ro.serbanmarius.Semafor" in the application's documents Application Support directory.
@@ -57,6 +64,10 @@ class CoreData: NSObject {
         return managedObjectContext
         }()
     
+    func savePendingChanges() {
+        saveContext()
+    }
+    
     func saveContext () {
         if let moc = self.managedObjectContext {
             var error: NSError? = nil
@@ -68,5 +79,5 @@ class CoreData: NSObject {
             }
         }
     }
-  
+    
 }

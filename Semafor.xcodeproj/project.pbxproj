@@ -13,11 +13,13 @@
 		29238D4019D5CFDD00B89D65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29238D3E19D5CFDD00B89D65 /* Main.storyboard */; };
 		29238D4219D5CFDD00B89D65 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29238D4119D5CFDD00B89D65 /* Images.xcassets */; };
 		29238D4519D5CFDD00B89D65 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29238D4319D5CFDD00B89D65 /* LaunchScreen.xib */; };
-		29238D5119D5CFDD00B89D65 /* SemaforTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29238D5019D5CFDD00B89D65 /* SemaforTests.swift */; };
 		2945DEB419D6C68500071BFD /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2945DEB319D6C68500071BFD /* CoreData.swift */; };
-		2945DEB719D6C82F00071BFD /* ApplicationAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2945DEB619D6C82F00071BFD /* ApplicationAssembly.swift */; };
 		295D4CD21A4D908D003C3563 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 295D4CD11A4D908D003C3563 /* Alamofire.framework */; };
-		6754E658CC3BC993362A59AA /* libPods-Semafor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 926098309498EACF8F16E2EF /* libPods-Semafor.a */; };
+		295D4CD61A4D9930003C3563 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295D4CD51A4D9930003C3563 /* Persistence.swift */; };
+		29D993611A4F45C80085BAA2 /* AppDelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D993601A4F45C80085BAA2 /* AppDelegateTests.swift */; };
+		29D993621A4F45FE0085BAA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29238D3719D5CFDD00B89D65 /* AppDelegate.swift */; };
+		29D993631A4F46830085BAA2 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295D4CD51A4D9930003C3563 /* Persistence.swift */; };
+		29D993641A4F46920085BAA2 /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2945DEB319D6C68500071BFD /* CoreData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,15 +43,10 @@
 		29238D4419D5CFDD00B89D65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		29238D4A19D5CFDD00B89D65 /* SemaforTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SemaforTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29238D4F19D5CFDD00B89D65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		29238D5019D5CFDD00B89D65 /* SemaforTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemaforTests.swift; sourceTree = "<group>"; };
 		2945DEB319D6C68500071BFD /* CoreData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreData.swift; sourceTree = "<group>"; };
-		2945DEB619D6C82F00071BFD /* ApplicationAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationAssembly.swift; sourceTree = "<group>"; };
-		2945DEBA19D6CAAB00071BFD /* Semafor-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Semafor-Bridging-Header.h"; sourceTree = "<group>"; };
-		2945DEBF19D6D3AB00071BFD /* SemaforTests-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SemaforTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		295D4CD11A4D908D003C3563 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../Library/Developer/Xcode/DerivedData/Semafor-hkceypjdfltqckcwfpelnmrkpfcz/Build/Products/Debug-iphoneos/Alamofire.framework"; sourceTree = "<group>"; };
-		2C6C4C8AE704B98392BEE557 /* Pods-Semafor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Semafor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Semafor/Pods-Semafor.debug.xcconfig"; sourceTree = "<group>"; };
-		926098309498EACF8F16E2EF /* libPods-Semafor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Semafor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4C2DDAEF894CDE5B0390037 /* Pods-Semafor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Semafor.release.xcconfig"; path = "Pods/Target Support Files/Pods-Semafor/Pods-Semafor.release.xcconfig"; sourceTree = "<group>"; };
+		295D4CD51A4D9930003C3563 /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		29D993601A4F45C80085BAA2 /* AppDelegateTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegateTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +55,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				295D4CD21A4D908D003C3563 /* Alamofire.framework in Frameworks */,
-				6754E658CC3BC993362A59AA /* libPods-Semafor.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,7 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				295D4CD11A4D908D003C3563 /* Alamofire.framework */,
-				926098309498EACF8F16E2EF /* libPods-Semafor.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -87,7 +82,6 @@
 				29238D3419D5CFDD00B89D65 /* Semafor */,
 				29238D4D19D5CFDD00B89D65 /* SemaforTests */,
 				29238D3319D5CFDD00B89D65 /* Products */,
-				BFFD39E09DDD711A320AE1B0 /* Pods */,
 				213DF47B315A2C7C8617E355 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -104,12 +98,10 @@
 		29238D3419D5CFDD00B89D65 /* Semafor */ = {
 			isa = PBXGroup;
 			children = (
-				2945DEC119D6D3DA00071BFD /* CoreData */,
-				2945DEC019D6D3C500071BFD /* UI */,
-				2945DEB619D6C82F00071BFD /* ApplicationAssembly.swift */,
-				29238D3719D5CFDD00B89D65 /* AppDelegate.swift */,
-				2945DEBA19D6CAAB00071BFD /* Semafor-Bridging-Header.h */,
 				29238D3519D5CFDD00B89D65 /* Supporting Files */,
+				295D4CD41A4D98FC003C3563 /* Persistence */,
+				2945DEC019D6D3C500071BFD /* UI */,
+				29238D3719D5CFDD00B89D65 /* AppDelegate.swift */,
 			);
 			path = Semafor;
 			sourceTree = "<group>";
@@ -125,9 +117,8 @@
 		29238D4D19D5CFDD00B89D65 /* SemaforTests */ = {
 			isa = PBXGroup;
 			children = (
-				2945DEBF19D6D3AB00071BFD /* SemaforTests-Bridging-Header.h */,
-				29238D5019D5CFDD00B89D65 /* SemaforTests.swift */,
 				29238D4E19D5CFDD00B89D65 /* Supporting Files */,
+				29D993601A4F45C80085BAA2 /* AppDelegateTests.swift */,
 			);
 			path = SemaforTests;
 			sourceTree = "<group>";
@@ -160,13 +151,13 @@
 			name = CoreData;
 			sourceTree = "<group>";
 		};
-		BFFD39E09DDD711A320AE1B0 /* Pods */ = {
+		295D4CD41A4D98FC003C3563 /* Persistence */ = {
 			isa = PBXGroup;
 			children = (
-				2C6C4C8AE704B98392BEE557 /* Pods-Semafor.debug.xcconfig */,
-				A4C2DDAEF894CDE5B0390037 /* Pods-Semafor.release.xcconfig */,
+				2945DEC119D6D3DA00071BFD /* CoreData */,
+				295D4CD51A4D9930003C3563 /* Persistence.swift */,
 			);
-			name = Pods;
+			name = Persistence;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,11 +167,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 29238D5419D5CFDD00B89D65 /* Build configuration list for PBXNativeTarget "Semafor" */;
 			buildPhases = (
-				F690E8782A5369CDCA79A472 /* Check Pods Manifest.lock */,
 				29238D2E19D5CFDD00B89D65 /* Sources */,
 				29238D2F19D5CFDD00B89D65 /* Frameworks */,
 				29238D3019D5CFDD00B89D65 /* Resources */,
-				ED5CCF9200E2941234E4C79C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -220,6 +209,7 @@
 				TargetAttributes = {
 					29238D3119D5CFDD00B89D65 = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = B4669TNFAA;
 					};
 					29238D4919D5CFDD00B89D65 = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -266,49 +256,16 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		ED5CCF9200E2941234E4C79C /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Semafor/Pods-Semafor-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F690E8782A5369CDCA79A472 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		29238D2E19D5CFDD00B89D65 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2945DEB419D6C68500071BFD /* CoreData.swift in Sources */,
-				2945DEB719D6C82F00071BFD /* ApplicationAssembly.swift in Sources */,
 				29238D3D19D5CFDD00B89D65 /* ViewController.swift in Sources */,
 				29238D3819D5CFDD00B89D65 /* AppDelegate.swift in Sources */,
 				29238D3B19D5CFDD00B89D65 /* Semafor.xcdatamodeld in Sources */,
+				295D4CD61A4D9930003C3563 /* Persistence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,7 +273,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29238D5119D5CFDD00B89D65 /* SemaforTests.swift in Sources */,
+				29D993641A4F46920085BAA2 /* CoreData.swift in Sources */,
+				29D993631A4F46830085BAA2 /* Persistence.swift in Sources */,
+				29D993621A4F45FE0085BAA2 /* AppDelegate.swift in Sources */,
+				29D993611A4F45C80085BAA2 /* AppDelegateTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,10 +389,10 @@
 		};
 		29238D5519D5CFDD00B89D65 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2C6C4C8AE704B98392BEE557 /* Pods-Semafor.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Semafor-hkceypjdfltqckcwfpelnmrkpfcz/Build/Products/Debug-iphoneos",
@@ -440,17 +400,17 @@
 				INFOPLIST_FILE = Semafor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Semafor/Semafor-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		29238D5619D5CFDD00B89D65 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A4C2DDAEF894CDE5B0390037 /* Pods-Semafor.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Semafor-hkceypjdfltqckcwfpelnmrkpfcz/Build/Products/Debug-iphoneos",
@@ -458,7 +418,7 @@
 				INFOPLIST_FILE = Semafor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Semafor/Semafor-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Release;
 		};
@@ -478,7 +438,7 @@
 				INFOPLIST_FILE = SemaforTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "SemaforTests/SemaforTests-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Semafor.app/Semafor";
 			};
@@ -496,7 +456,7 @@
 				INFOPLIST_FILE = SemaforTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "SemaforTests/SemaforTests-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Semafor.app/Semafor";
 			};
 			name = Release;
